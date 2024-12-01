@@ -1,0 +1,63 @@
+Using device: cuda
+Loaded 10000 images with shape torch.Size([10000, 3, 64, 64])
+
+Analyzing Red channel...
+Top 10 PVE for Red channel: [0.28929666 0.09373983 0.06788932 0.05859335 0.05419608 0.04384534
+ 0.02887851 0.02049249 0.01681616 0.01630733]
+Total PVE for top 10 components: 0.6900550723075867
+Minimum components for 70% PVE: 11
+
+Analyzing Green channel...
+Top 10 PVE for Green channel: [0.32041857 0.08559515 0.0817762  0.05796738 0.04110807 0.03958309
+ 0.02568492 0.01855648 0.0166359  0.016046  ]
+Total PVE for top 10 components: 0.7033717632293701
+Minimum components for 70% PVE: 10
+
+Analyzing Blue channel...
+Top 10 PVE for Blue channel: [0.34358874 0.08854298 0.08477294 0.05722967 0.03805517 0.03354488
+ 0.02486433 0.01717733 0.01624936 0.01553058]
+Total PVE for top 10 components: 0.7195559740066528
+Minimum components for 70% PVE: 9
+
+Analyzing Red channel...
+
+Analyzing Green channel...
+
+Analyzing Blue channel...
+Reshaped and normalized first 10 components for Red channel.
+Reshaped and normalized first 10 components for Green channel.
+Reshaped and normalized first 10 components for Blue channel.
+Created 10 RGB images.
+
+Reconstructing with k=1...
+Reconstructed Red channel with k=1 components.
+Reconstructed Green channel with k=1 components.
+Reconstructed Blue channel with k=1 components.
+
+Reconstructing with k=50...
+Reconstructed Red channel with k=50 components.
+Reconstructed Green channel with k=50 components.
+Reconstructed Blue channel with k=50 components.
+
+Reconstructing with k=250...
+Reconstructed Red channel with k=250 components.
+Reconstructed Green channel with k=250 components.
+Reconstructed Blue channel with k=250 components.
+
+Reconstructing with k=500...
+Reconstructed Red channel with k=500 components.
+Reconstructed Green channel with k=500 components.
+Reconstructed Blue channel with k=500 components.
+
+Reconstructing with k=1000...
+Reconstructed Red channel with k=1000 components.
+Reconstructed Green channel with k=1000 components.
+Reconstructed Blue channel with k=1000 components.
+
+Reconstructing with k=4096...
+Reconstructed Red channel with k=4096 components.
+Reconstructed Green channel with k=4096 components.
+Reconstructed Blue channel with k=4096 components.
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.09085366..1.011945].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.06108004..1.0085788].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.032231748..0.9970366].
